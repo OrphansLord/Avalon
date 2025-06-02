@@ -20,16 +20,11 @@ numero varía en funcion de los dragones presentes en la isla:
 
 Como redunda en beneficio de todos que la magia de la isla no colapse, los
 dragones y las hechiceras han llegado a un acuerdo: antes de entrar en la isla,
-los dragones expresaran su deseo de entrar en la isla, y una vez el número de hechiceras en la isla sea el nuevo maximo permitido (las hechiceras no pueden seguir entrando si ya se ha alcanzado el nuevo maximo), los dragones entrarán de ´
-facto en la misma.
-El numero de escamas necesarias para terminar la ejecuci ´ on del programa ´
-debe ser igual o superior al numero de hechiceras y que ese n ´ umero sea m ´ ultiplo ´
-de 6 para que las Reinas de las Hadas puedan recogerlas. Forma parte del diseno˜
-de tu programa calcular cuantas escamas debe perder cada drag ´ on (o lo que es lo ´
-mismo: cuantas veces entra en la isla). Indica en tu informe c ´ omo has realizado ´
-este calculo. ´
-As´ı, cada dragon repite las siguientes acciones tantas veces como se le haya ´
-indicado:
+los dragones expresaran su deseo de entrar en la isla, y una vez el número de hechiceras en la isla sea el nuevo maximo permitido (las hechiceras no pueden seguir entrando si ya se ha alcanzado el nuevo maximo),
+los dragones entrarán de facto en la misma.
+El numero de escamas necesarias para terminar la ejecución del programa debe ser igual o superior al numero de hechiceras y que ese número sea múltiplo de 6 para que las Reinas de las Hadas puedan recogerlas. Forma parte del diseño
+de tu programa calcular cuantas escamas debe perder cada dragón (o lo que es lo mismo: cuantas veces entra en la isla). Indica en tu informe cómo has realizado este calculo.
+Así, cada dragon repite las siguientes acciones tantas veces como se le haya indicado:
 1. Vuela durante un tiempo aleatorio (menor de 1 segundo).
 2. Expresa su deseo de entrar en la isla.
 3. Una vez el numero de hechiceras en la isla es el m ´ aximo permitido por el ´
@@ -108,11 +103,6 @@ Donde las opciones, todas obligatorias, son:
 • -b maxBarco: numero m ´ aximo de personas en el barco de Caronte. ´
 Recuerda que el programa debe finalizar una vez todas las novicias han vuelto
 a Ankh-Morpork. Para que el sistema termine, se ha de calcular el numero de ´
-veces que cada dragon entra en la isla y el n ´ umero de escamas que cada Reina de ´
-las Hadas recogera (estos dos n ´ umeros deben ser iguales o superiores al n ´ umero ´
-de hechiceras). Para que pueda terminar Nimue, este hilo (y s ´ olo este hilo) puede ´
-usar los metodos ´ acquire para semaforos y ´ wait para la parte de monitores
+veces que cada dragon entra en la isla y el número de escamas que cada Reina de las Hadas recogera (estos dos números deben ser iguales o superiores al número de hechiceras).
+Para que pueda terminar Nimue, este hilo (y sólo este hilo) puede usar los métodos acquire para semaforos y wait para la parte de monitores
 con temporizador.
-Soluciones con abrazo mortal, inanicion, o sin exclusi ´ on mutua no ser ´ an con- ´
-sideradas validas. ´
-Puedes encontrar en Aula Global ejemplos de ejecucion del c ´ odigo.
